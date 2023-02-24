@@ -1,0 +1,18 @@
+name: deploy-container
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - '4_linking_multiple_apps/dashboard_react_vue/container/'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build
+      run: |
+        npm install
+        npm run build
