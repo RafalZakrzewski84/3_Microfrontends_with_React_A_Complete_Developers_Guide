@@ -5,11 +5,11 @@ on:
     branches:
       - master
     paths:
-      - "4_linking_multiple_apps/dashboard_react_vue/container/"
+      - "4_linking_multiple_apps/dashboard_react_vue/container/**"
 
 defaults:
     run:
-      working-directory: '4_linking_multiple_apps/dashboard_react_vue/container/'
+      working-directory: 4_linking_multiple_apps/dashboard_react_vue/container/
 
 jobs:
   build:
