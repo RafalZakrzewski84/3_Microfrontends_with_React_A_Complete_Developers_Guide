@@ -79,7 +79,7 @@ export default function Album() {
               color="textPrimary"
               gutterBottom
             >
-              Trigger deployment
+              Trigger deployment x2
             </Typography>
             <Typography
               component="h1"
